@@ -16,7 +16,7 @@ __data = {
 }
 s_data = pd.Series(__data, name="Sell")
 
-# %% Drawing Pie Chart
+# %% Draw Pie Chart
 
 plot = s_data.plot.pie(
     y='Sell', 

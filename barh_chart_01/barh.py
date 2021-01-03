@@ -16,6 +16,6 @@ __data = {
 }
 s_data = pd.Series(__data, name="Sell")
 
-# %% Drowing horizontal bar
+# %% Draw horizontal bar
 
 plot = s_data.plot.barh(x="Sell")

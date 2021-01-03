@@ -14,6 +14,6 @@ __data = [
 
 s_data = pd.Series(__data, name="Rating")
 
-# %% Drowing Histogram Chart
+# %% Draw Histogram Chart
 
 s_data.plot.hist(bins=5, title="Rating")
